@@ -1,0 +1,56 @@
+body{
+	background-color: #010005;
+	margin: 20px;
+	box-shadow: 0 0 30px 10px rgba(224, 218, 218);
+	font-family: 'Caveat', cursive;
+font-family: 'Comfortaa', cursive;
+font-family: 'Edu QLD Beginner', cursive;
+font-family: 'Ibarra Real Nova', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pattaya', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Flex', sans-serif;
+font-family: 'Rubik Glitch', cursive;
+font-family: 'Teko', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa:wght@700&family=Edu+QLD+Beginner&family=Ibarra+Real+Nova:wght@400;700&family=Open+Sans:wght@400;700&family=Oswald:wght@300;700&family=Pattaya&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto:wght@400;500;700&family=Rubik+Glitch&family=Teko:wght@600&family=Yanone+Kaffeesatz:wght@600&display=swap');
+p{
+	color: #289e65;
+	font-size: 40px;
+	margin: 20px;
+}
+html{
+	background-color: green;
+}
+h1{
+	color: #1581bf;
+	font-size: 60px;
+	margin: 60px;
+	text-align: center;
+}
+a{
+	font-size: 40px;
+	margin: 10px;
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	width: 80%;
+	margin: auto;
+}
+a:hover{
+	color: green;
+	text-decoration: underline;
+}
+h1:hover{
+	color: green;
+	text-decoration: underline;
+}
+p:hover{
+	color: blue;
+	text-decoration: underline;
+}
