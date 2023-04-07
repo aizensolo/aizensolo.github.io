@@ -1,0 +1,32 @@
+.img-box{
+	column-count: 4;
+	column-gap: 5px;
+	width: 90%;
+	margin: auto;
+}
+.image{
+	max-width: 100%;
+	display: block;
+	filter:blur(4px);
+	transition: 1s;
+}
+.image:hover{
+	filter: blur(0);
+}
+.image+.image{
+	margin: 5px;
+}
+h1{
+	width: 100%;
+	text-align: center;
+	border: 2px solid #42dbd1;
+	color: #42dbd1;
+}
+body{
+	background-color: black;
+}
+@media all and (max-width:800px){
+	.img-box{
+		column-count: 2;
+	}
+}
