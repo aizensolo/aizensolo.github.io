@@ -1,0 +1,43 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: black;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+main{
+	width: 95%;
+	display: flex;
+	margin: auto;
+	background-color: darkblue;
+	max-width: 10000px;
+	flex-wrap: wrap;
+}
+.item{
+	height: 400px;
+	width: 657px;
+	background-color: blue;
+	margin: 20px;
+	background-position: center;
+	background-size: cover;
+	transition: 1s;
+}
+.heading{
+	font-size: 50px;
+	text-align: center;
+	color: blue;
+	padding: 30px 0;
+}
+@font-face{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	src: url(Fonts/anoneKaffeesatz-VariableFont_wght.ttf);
+}
+.item:hover{
+	opacity: 1;
+	transform: scale(1.5);
+	transform: rotate(15deg);
+	box-shadow: 0 0 200px 50 px rgba(0,0,0,1);
+}
