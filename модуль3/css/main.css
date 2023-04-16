@@ -1,0 +1,110 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.first{
+	background-image: url(../img/img1.jpg);
+	height: 120%;
+	background-position: center;
+	background-size: cover;
+}
+body,html,main{
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+.first p{
+	color: white;
+}
+.tourism{
+	width: 100%;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 20px;
+}
+.text-container{
+	width: 40%;
+	margin-left: 150px;
+	margin-top: 300px;
+}
+.first-line{
+	font-size: 26px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	opacity: 0.5;
+}
+.second-line{
+	font-size: 65px;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+.third-line{
+	font-size: 20px;
+	opacity: 0.6;
+}
+.second{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.gallery-container{
+	width: 60%;
+	max-width: 1000px;
+}
+.img-container{
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+}
+img{
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.img1{
+	width: 55%;
+}
+.wrapper{
+	margin-left: 20px;
+}
+.img2{
+	margin-bottom: 20px;
+}
+.gallery-text{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px;
+}
+.gallery-header{
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-right: 60px;
+}
+.last-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(../img/img5.jpg);
+	height: 300px;
+	background-position: center;
+	background-size: cover;
+}
+.last-header{
+	color: white;
+	font-size: 25px;
+	margin: 20px;
+	border: 1px solid white;
+	padding: 10px 20px;
+}
+.last-text{
+	color: white;
+	font-size: 18px;
+	width: 60%;
+	text-align: center;
+	margin: 20px;
+	opacity: 70%;
+}
